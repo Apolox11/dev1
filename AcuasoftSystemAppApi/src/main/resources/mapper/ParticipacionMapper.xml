@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.acuasoftsystemapp.dao.ParticipacionMapper">
+  <resultMap id="BaseResultMap" type="co.acuasoftsystemapp.model.Participacion">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="usuario_id" jdbcType="INTEGER" property="usuarioId" />
+    <result column="ejercicio_id" jdbcType="INTEGER" property="ejercicioId" />
+    <result column="puntaje" jdbcType="INTEGER" property="puntaje" />
+    <result column="fecha" jdbcType="TIMESTAMP" property="fecha" />
+    <result column="nivel_id" jdbcType="INTEGER" property="nivelId" />
+  </resultMap>
+</mapper>
